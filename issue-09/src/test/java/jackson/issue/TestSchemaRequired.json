@@ -1,0 +1,28 @@
+{
+  "type" : "object",
+  "id" : "111-222-333",
+  "properties" : {
+    "address" : {
+      "type" : "object",
+      "id" : "http://jsonschema.net/address",
+      "properties" : {
+        "streetAddress" : {
+          "type" : "string",
+          "id" : "http://jsonschema.net/address/streetAddress"
+        },
+        "city" : {
+          "type" : "string",
+          "id" : "http://jsonschema.net/address/city"
+        }
+      }
+    },
+    "phoneNumber" : {
+      "type" : "array",
+      "id" : "http://jsonschema.net/phoneNumber",
+      "items" : {
+        "type" : "object"
+      }
+    }
+  },
+  "required" : ["address"]
+}

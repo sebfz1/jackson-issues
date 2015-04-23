@@ -1,4 +1,4 @@
-package com.github.issue;
+package jackson.issue;
 
 import com.fasterxml.jackson.module.jsonSchema.types.ObjectSchema;
 

@@ -1,9 +1,10 @@
-package com.github.issue;
+package jackson.issue;
+
+import jackson.issue.MySchema;
 
 import org.junit.Test;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.issue.MySchema;
 
 public class TestSchema
 {
